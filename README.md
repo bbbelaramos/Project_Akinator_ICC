@@ -47,12 +47,12 @@ Projeto/
 ## 🧠 Como Funciona (A Matemática)
 O algoritmo calcula a probabilidade de cada personagem ser o escolhido baseando-se nas respostas dadas.
 
-* **Naive Bayes com Logaritmos
+* **Naive Bayes com Logaritmos**
 Para evitar underflow (números muito pequenos próximos de zero), utilizamos a soma de logaritmos em vez da multiplicação de probabilidades:
 
 $$ Score = \sum \log(P(Resposta | Personagem)) $$
 
-* **Suavização de Laplace (Add-1 Smoothing)
+* **Suavização de Laplace (Add-1 Smoothing)**
 Para garantir que o jogo funcione mesmo com poucos dados (ou quando um personagem nunca respondeu a uma pergunta específica), aplicamos a suavização:
 
 $$ P(Sim) = \frac{\text{Contagem Sim} + 1}{\text{Total de Respostas} + 2} $$
