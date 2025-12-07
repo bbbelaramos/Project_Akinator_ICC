@@ -91,9 +91,12 @@ pip install pygame
  
 ## 📸 Screenshots
 
-| Imagem 1 | Imagem 2 |
+| **Menu Principal** | **Tela de pergunta** |
 |---------|----------|
 | <img src="assets/imagens/menu_principal.png" width="250"> | <img src="assets/imagens/pergunta.png" width="250"> |
-| **Menu Principal** | **Tela de pergunta** |
+
+| **Tela adivinhar** | **Tela errou** |
+|---------|----------|
+| <img src="assets/imagens/adivinhar.png" width="250"> | <img src="assets/imagens/errou.png" width="250"> |
 
 
