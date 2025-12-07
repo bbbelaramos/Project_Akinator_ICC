@@ -8,9 +8,9 @@
 
 ## 📋 Sobre o Projeto
 
-      Olá tudo bem? Meu nome é Isabela, desenvolvi este projeto como trabalho final da disciplina de **Introdução à Ciência da Computação (ICC)**. O objetivo é simular o jogo "Akinator", onde o computador tenta adivinhar em qual personagem o usuário está pensando através de uma série de perguntas "Sim" ou "Não".
+# Olá tudo bem? Meu nome é Isabela, desenvolvi este projeto como trabalho final da disciplina de **Introdução à Ciência da Computação (ICC)**. O objetivo é simular o jogo "Akinator", onde o computador tenta adivinhar em qual personagem o usuário está pensando através de uma série de perguntas "Sim" ou "Não".
 
-      O diferencial deste projeto é que ele **não utiliza uma árvore de decisão estática**. Ele usa um modelo probabilístico (Naive Bayes) que aprende dinamicamente. Se o computador errar, ele pede ao usuário para ensinar quem era o personagem e qual pergunta diferencia o chute errado do correto.
+# O diferencial deste projeto é que ele **não utiliza uma árvore de decisão estática**. Ele usa um modelo probabilístico (Naive Bayes) que aprende dinamicamente. Se o computador errar, ele pede ao usuário para ensinar quem era o personagem e qual pergunta diferencia o chute errado do correto.
 
 ## 🚀 Funcionalidades
 
