@@ -91,13 +91,9 @@ pip install pygame
  
 ## 📸 Screenshots
 
-<figure style="display:inline-block; text-align:center; margin:10px;">
-  <img src="assets/imagens/pergunta.png" width="250">
-  <figcaption>Imagem 1 — Menu Principal</figcaption>
-</figure>
+| Imagem 1 | Imagem 2 |
+|---------|----------|
+| <img src="assets/imagens/menu_principal.png" width="250"> | <img src="assets/imagens/pergunta.png" width="250"> |
+| **Menu Principal** | **Tela de pergunta** |
 
-<figure style="display:inline-block; text-align:center; margin:10px;">
-  <img src="assets/imagens/pergunta.png" width="250">
-  <figcaption>Imagem 2 — Tela de pergunta</figcaption>
-</figure>
 
