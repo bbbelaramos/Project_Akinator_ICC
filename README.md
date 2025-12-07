@@ -58,3 +58,14 @@ Para garantir que o jogo funcione mesmo com poucos dados (ou quando um personage
 $$ P(Sim) = \frac{\text{Contagem Sim} + 1}{\text{Total de Respostas} + 2} $$
 
 Isso garante que a probabilidade nunca seja 0% ou 100%, permitindo que o sistema aprenda e corrija erros futuros.
+
+## 🛠️ Como Rodar
+* Pré-requisitos
+Você precisa ter o Python instalado e a biblioteca Pygame.
+
+Clone este repositório ou baixe os arquivos.
+
+Instale a dependência:
+´´´ bash
+pip install pygame
+´´´
