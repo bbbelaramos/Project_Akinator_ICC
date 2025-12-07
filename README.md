@@ -88,4 +88,12 @@ pip install pygame
    * Responda a essa nova pergunta para o seu personagem.
 
    * Pronto! O Akinator aprendeu e não errará na próxima vez.
+ 
+## 📸 Screenshots
+
+| Imagem 1 | Imagem 2 |
+|---------|---------|
+| <img src="imagens/pergunta.png" width="200"> | <img src="img2.png" width="200"> |
+| Menu Principal | Pergunta |
+
    
