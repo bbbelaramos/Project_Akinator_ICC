@@ -66,6 +66,6 @@ Você precisa ter o Python instalado e a biblioteca Pygame.
 Clone este repositório ou baixe os arquivos.
 
 Instale a dependência:
-´´´ bash
+``` bash
 pip install pygame
-´´´
+```
