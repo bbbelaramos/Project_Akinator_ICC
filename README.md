@@ -44,7 +44,7 @@ Projeto/
 └── README.md
 ```
 
-##🧠 Como Funciona (A Matemática)
+## 🧠 Como Funciona (A Matemática)
 O algoritmo calcula a probabilidade de cada personagem ser o escolhido baseando-se nas respostas dadas.
 
 * **Naive Bayes com Logaritmos
