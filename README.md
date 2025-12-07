@@ -99,4 +99,5 @@ pip install pygame
 |---------|----------|
 | <img src="assets/imagens/advinhar.png" width="250"> | <img src="assets/imagens/erro.png" width="250"> |
 
-
+👨‍💻 Autor
+Desenvolvido por **Isabela Santos Ramos**.
