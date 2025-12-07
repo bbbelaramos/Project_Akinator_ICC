@@ -93,7 +93,7 @@ pip install pygame
 
 | Imagem 1 | Imagem 2 |
 |---------|---------|
-| <img src="imagens/pergunta.png" width="200"> | <img src="img2.png" width="200"> |
+| <img src="assets/imagens/menu_principal.png" width="200"> | <img src="assets/imagens/pergunta.png" width="200"> |
 | Menu Principal | Pergunta |
 
    
