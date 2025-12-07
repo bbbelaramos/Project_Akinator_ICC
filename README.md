@@ -8,7 +8,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi desenvolvido como trabalho final da disciplina de **Introdução à Ciência da Computação (ICC)**. O objetivo é simular o jogo "Akinator", onde o computador tenta adivinhar em qual personagem o usuário está pensando através de uma série de perguntas "Sim" ou "Não".
+Olá tudo bem? Meu nome é Isabela, desenvolvi este projeto como trabalho final da disciplina de **Introdução à Ciência da Computação (ICC)**. O objetivo é simular o jogo "Akinator", onde o computador tenta adivinhar em qual personagem o usuário está pensando através de uma série de perguntas "Sim" ou "Não".
 
 O diferencial deste projeto é que ele **não utiliza uma árvore de decisão estática**. Ele usa um modelo probabilístico (Naive Bayes) que aprende dinamicamente. Se o computador errar, ele pede ao usuário para ensinar quem era o personagem e qual pergunta diferencia o chute errado do correto.
 
@@ -42,3 +42,19 @@ Projeto/
 │   ├── akinator_logo.png
 │   └── ...
 └── README.md
+```
+
+##🧠 Como Funciona (A Matemática)
+O algoritmo calcula a probabilidade de cada personagem ser o escolhido baseando-se nas respostas dadas.
+
+* **Naive Bayes com Logaritmos
+Para evitar underflow (números muito pequenos próximos de zero), utilizamos a soma de logaritmos em vez da multiplicação de probabilidades:
+
+$$ Score = \sum \log(P(Resposta | Personagem)) $$
+
+* **Suavização de Laplace (Add-1 Smoothing)
+Para garantir que o jogo funcione mesmo com poucos dados (ou quando um personagem nunca respondeu a uma pergunta específica), aplicamos a suavização:
+
+$$ P(Sim) = \frac{\text{Contagem Sim} + 1}{\text{Total de Respostas} + 2} $$
+
+Isso garante que a probabilidade nunca seja 0% ou 100%, permitindo que o sistema aprenda e corrija erros futuros.
