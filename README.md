@@ -97,6 +97,6 @@ pip install pygame
 
 | **Tela adivinhar** | **Tela errou** |
 |---------|----------|
-| <img src="assets/imagens/adivinhar.png" width="250"> | <img src="assets/imagens/errou.png" width="250"> |
+| <img src="assets/imagens/adivinhar.png" width="250"> | <img src="assets/imagens/erro.png" width="250"> |
 
 
