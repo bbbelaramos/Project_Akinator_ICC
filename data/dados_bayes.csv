@@ -1,0 +1,263 @@
+personagem,pergunta,sim,nao
+Mario,p1,2,0
+Mario,p2,2,0
+Mario,p3,0,2
+Mario,p4,0,2
+Mario,p5,0,2
+Mario,p6,0,2
+Mario,p7,0,2
+Mario,p8,0,2
+Mario,p9,0,2
+Mario,p10,0,2
+Mario,p11,2,0
+Mario,p12,0,2
+Mario,p13,2,0
+Mario,p14,0,2
+Mario,p15,0,2
+Mario,p16,0,2
+Mario,p17,2,0
+Mario,p18,0,2
+Mario,p19,0,2
+Mario,p20,0,2
+Mario,p21,0,1
+Mario,p22,0,1
+Mario,p23,0,1
+Bowser,p1,0,1
+Bowser,p2,1,0
+Bowser,p3,0,1
+Bowser,p4,1,0
+Bowser,p5,1,0
+Bowser,p6,1,0
+Bowser,p7,0,1
+Bowser,p8,0,1
+Bowser,p9,0,1
+Bowser,p10,0,1
+Bowser,p11,0,1
+Bowser,p12,1,0
+Bowser,p13,0,1
+Bowser,p14,0,1
+Bowser,p15,0,1
+Bowser,p16,0,1
+Bowser,p17,0,1
+Bowser,p18,0,1
+Bowser,p19,1,0
+Bowser,p20,0,1
+Bob Esponja,p1,0,3
+Bob Esponja,p2,0,3
+Bob Esponja,p3,0,3
+Bob Esponja,p4,0,3
+Bob Esponja,p5,0,3
+Bob Esponja,p6,0,3
+Bob Esponja,p7,0,3
+Bob Esponja,p8,0,3
+Bob Esponja,p9,0,3
+Bob Esponja,p10,3,0
+Bob Esponja,p11,0,3
+Bob Esponja,p12,0,3
+Bob Esponja,p13,0,3
+Bob Esponja,p14,0,2
+Bob Esponja,p15,0,2
+Bob Esponja,p16,0,2
+Bob Esponja,p17,0,2
+Bob Esponja,p18,0,2
+Bob Esponja,p19,0,2
+Bob Esponja,p20,0,2
+Homem-Aranha,p1,2,0
+Homem-Aranha,p2,0,2
+Homem-Aranha,p3,0,2
+Homem-Aranha,p4,0,2
+Homem-Aranha,p5,0,2
+Homem-Aranha,p6,0,2
+Homem-Aranha,p7,2,0
+Homem-Aranha,p8,0,2
+Homem-Aranha,p9,0,2
+Homem-Aranha,p10,0,2
+Homem-Aranha,p11,0,2
+Homem-Aranha,p12,0,2
+Homem-Aranha,p13,0,2
+Homem-Aranha,p14,0,2
+Homem-Aranha,p15,2,0
+Homem-Aranha,p16,0,2
+Homem-Aranha,p17,2,0
+Homem-Aranha,p18,0,2
+Homem-Aranha,p19,0,2
+Homem-Aranha,p20,0,2
+Harry Potter,p1,1,0
+Harry Potter,p2,0,1
+Harry Potter,p3,0,1
+Harry Potter,p4,0,1
+Harry Potter,p5,1,0
+Harry Potter,p6,0,1
+Harry Potter,p7,0,1
+Harry Potter,p8,0,1
+Harry Potter,p9,0,1
+Harry Potter,p10,0,1
+Harry Potter,p11,0,1
+Harry Potter,p12,0,1
+Harry Potter,p13,0,1
+Harry Potter,p14,1,0
+Harry Potter,p15,0,1
+Harry Potter,p16,0,1
+Harry Potter,p17,0,1
+Harry Potter,p18,0,1
+Harry Potter,p19,0,1
+Harry Potter,p20,0,1
+Shrek,p1,0,1
+Shrek,p2,0,1
+Shrek,p3,1,0
+Shrek,p4,0,1
+Shrek,p5,0,1
+Shrek,p6,0,1
+Shrek,p7,0,1
+Shrek,p8,0,1
+Shrek,p9,0,1
+Shrek,p10,0,1
+Shrek,p11,0,1
+Shrek,p12,0,1
+Shrek,p13,0,1
+Shrek,p14,0,1
+Shrek,p15,0,1
+Shrek,p16,1,0
+Shrek,p17,0,1
+Shrek,p18,0,1
+Shrek,p19,0,1
+Shrek,p20,0,1
+Princesa Fiona,p1,0,6
+Princesa Fiona,p2,0,6
+Princesa Fiona,p3,5,1
+Princesa Fiona,p4,0,6
+Princesa Fiona,p5,0,6
+Princesa Fiona,p6,0,6
+Princesa Fiona,p7,0,6
+Princesa Fiona,p8,0,6
+Princesa Fiona,p9,0,6
+Princesa Fiona,p10,0,6
+Princesa Fiona,p11,0,6
+Princesa Fiona,p12,6,0
+Princesa Fiona,p13,0,6
+Princesa Fiona,p14,0,5
+Princesa Fiona,p15,0,5
+Princesa Fiona,p16,5,0
+Princesa Fiona,p17,0,4
+Princesa Fiona,p18,0,4
+Princesa Fiona,p19,0,4
+Princesa Fiona,p20,0,4
+Yoda,p1,0,1
+Yoda,p2,0,1
+Yoda,p3,1,0
+Yoda,p4,0,1
+Yoda,p5,1,0
+Yoda,p6,0,1
+Yoda,p7,0,1
+Yoda,p8,1,0
+Yoda,p9,1,0
+Yoda,p10,0,1
+Yoda,p11,0,1
+Yoda,p12,0,1
+Yoda,p13,0,1
+Yoda,p14,0,1
+Yoda,p15,0,1
+Yoda,p16,0,1
+Yoda,p17,0,1
+Yoda,p18,1,0
+Yoda,p19,0,1
+Yoda,p20,0,1
+Darth Vader,p1,2,0
+Darth Vader,p2,0,2
+Darth Vader,p3,0,2
+Darth Vader,p4,2,0
+Darth Vader,p5,2,0
+Darth Vader,p6,0,2
+Darth Vader,p7,2,0
+Darth Vader,p8,2,0
+Darth Vader,p9,2,0
+Darth Vader,p10,0,2
+Darth Vader,p11,0,2
+Darth Vader,p12,0,2
+Darth Vader,p13,0,2
+Darth Vader,p14,0,2
+Darth Vader,p15,0,2
+Darth Vader,p16,0,2
+Darth Vader,p17,0,2
+Darth Vader,p18,0,2
+Darth Vader,p19,0,2
+Darth Vader,p20,0,2
+Darth Vader,p21,0,1
+Darth Vader,p22,0,1
+Gato de botas,p1,0,1
+Gato de botas,p2,0,1
+Gato de botas,p3,0,1
+Gato de botas,p4,0,1
+Gato de botas,p5,0,1
+Gato de botas,p6,1,0
+Gato de botas,p7,0,1
+Gato de botas,p8,0,1
+Gato de botas,p9,1,0
+Gato de botas,p10,0,1
+Gato de botas,p11,1,0
+Gato de botas,p12,0,1
+Gato de botas,p13,1,0
+Gato de botas,p14,0,1
+Gato de botas,p15,0,1
+Gato de botas,p16,1,0
+Gato de botas,p17,0,1
+Gato de botas,p18,1,0
+Gato de botas,p19,0,1
+Gato de botas,p20,1,0
+Luigi,p1,1,0
+Luigi,p2,1,0
+Luigi,p3,0,1
+Luigi,p4,0,1
+Luigi,p5,0,1
+Luigi,p6,0,1
+Luigi,p7,0,1
+Luigi,p8,0,1
+Luigi,p9,0,1
+Luigi,p10,0,1
+Luigi,p11,1,0
+Luigi,p12,0,1
+Luigi,p13,1,0
+Luigi,p14,0,1
+Luigi,p15,0,1
+Luigi,p16,0,1
+Luigi,p17,0,1
+Luigi,p18,0,1
+Luigi,p19,0,1
+Luigi,p20,0,1
+Capitao America,p1,1,0
+Capitao America,p2,0,1
+Capitao America,p3,0,1
+Capitao America,p4,0,1
+Capitao America,p5,0,1
+Capitao America,p6,0,1
+Capitao America,p7,1,0
+Capitao America,p8,0,1
+Capitao America,p9,0,1
+Capitao America,p10,0,1
+Capitao America,p11,0,1
+Capitao America,p12,0,1
+Capitao America,p13,0,1
+Capitao America,p14,0,1
+Capitao America,p15,1,0
+Thanos,p1,0,1
+Thanos,p2,0,1
+Thanos,p3,0,1
+Thanos,p4,1,0
+Thanos,p5,0,1
+Thanos,p6,0,1
+Thanos,p7,0,1
+Thanos,p8,0,1
+Thanos,p9,0,1
+Thanos,p10,0,1
+Thanos,p11,0,1
+Thanos,p12,0,1
+Thanos,p13,0,1
+Thanos,p14,0,1
+Thanos,p15,0,1
+Thanos,p16,0,1
+Thanos,p17,0,1
+Thanos,p18,0,1
+Thanos,p19,0,1
+Thanos,p20,0,1
+Thanos,p21,0,1
+Thanos,p22,0,1
