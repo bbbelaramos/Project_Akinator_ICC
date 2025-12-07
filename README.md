@@ -69,3 +69,22 @@ Instale a dependência:
 ``` bash
 pip install pygame
 ```
+
+## 🎮 Como Jogar
+Pense em um personagem (Fictício ou Real).
+
+Responda as perguntas clicando em SIM ou NÃO.
+
+O Akinator tentará adivinhar.
+
+Se ele acertar: Ótimo! O sistema reforça o aprendizado.
+
+Se ele errar:
+
+*Digite o nome do seu personagem.
+
+*Se for um conflito com outro personagem parecido, digite uma nova pergunta que diferencie os dois.
+
+*Responda a essa nova pergunta para o seu personagem.
+
+*Pronto! O Akinator aprendeu e não errará na próxima vez.
