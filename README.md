@@ -53,7 +53,7 @@ Para evitar underflow (números muito pequenos próximos de zero), utilizamos a 
 $$ Score = \sum \log(P(Resposta | Personagem)) $$
 
 * **Suavização de Laplace (Add-1 Smoothing)**
-Para garantir que o jogo funcione mesmo com poucos dados (ou quando um personagem nunca respondeu a uma pergunta específica), aplicamos a suavização:
+Implementada para evitar probabilidades nulas e garantir que personagens recém-criados tenham chances justas de serem escolhidos, equilibrando o peso entre personagens populares e desconhecidos.
 
 $$ P(Sim) = \frac{\text{Contagem Sim} + 1}{\text{Total de Respostas} + 2} $$
 
