@@ -2,10 +2,10 @@ import csv
 import os
 
 def carregar_personagens(caminho="data/personagens.csv"):
-    """Lê o CSV e retorna uma lista de dicionários com os personagens."""
+    #Lê o CSV e retorna uma lista de dicionários com os personagens
     personagens = []
 
-    # --- ALTERAÇÃO AQUI: SE O ARQUIVO NÃO EXISTIR ---
+
     if not os.path.exists(caminho):
         print("Arquivo não encontrado. Criando base padrão...")
         
@@ -28,8 +28,7 @@ def carregar_personagens(caminho="data/personagens.csv"):
         
         # Retorna a lista padrão para o jogo já começar com ela
         return lista_padrao
-    # ------------------------------------------------
-
+ 
     # Se o arquivo já existe, lê normalmente
     with open(caminho, newline='', encoding='utf-8') as f:
         leitor = csv.DictReader(f)
@@ -47,7 +46,7 @@ def salvar_personagens(caminho, personagens):
         # Pega as chaves do primeiro personagem para criar o cabeçalho (ex: ["nome"])
         fieldnames = personagens[0].keys()
         
-        # Extrasaction='ignore' evita erros se houver dados sobrando nos dicionários
+       
         escritor = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
         
         escritor.writeheader()

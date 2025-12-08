@@ -1,7 +1,6 @@
 import os
 
 def resetar_memoria():
-    # Apaga os arquivos de aprendizado (CSV) para reiniciar a IA
     
     # Lista de arquivos para apagar
     arquivos = [

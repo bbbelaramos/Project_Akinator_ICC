@@ -15,7 +15,7 @@ if not os.path.exists(PASTA_DATA):
 
 ARQ_PERGUNTAS = os.path.join(PASTA_DATA, "perguntas.csv")
 ARQ_PERSONAGENS = os.path.join(PASTA_DATA, "personagens.csv")
-ARQ_BAYES = os.path.join(PASTA_DATA, "dados_bayes.csv")
+ARQ_BAYES = os.path.join(PASTA_DATA,"dados_bayes.csv")
 
 def jogar():
     print("\n" + "="*40)
@@ -59,7 +59,7 @@ def jogar():
             # Ranking manual para pegar o vice
             ranking = []
             for p in lista_personagens:
-                s = adivinhar.calcular_score(p["nome"], respostas_usuario, dados_bayes)
+                s = adivinhar.calcular_score(p["nome"], respostas_usuario,dados_bayes)
                 ranking.append(s)
             ranking.sort(reverse=True)
             score_vice = ranking[1] if len(ranking) > 1 else -9999
@@ -77,7 +77,7 @@ def jogar():
         print(f"\n🔮 Meu palpite é: **{chute_nome}** (Certeza: {chute_score:.2f})")
         while True:
             acerto = input("Acertei? (s/n): ").strip().lower()
-            if acerto in ('s', 'n'): break
+            if acerto in ('s',  'n'): break
     else:
         print("\n😵 Não faço a menor ideia de quem seja.")
 
@@ -134,7 +134,7 @@ def jogar():
                 personagens.salvar_personagens(ARQ_PERSONAGENS, lista_personagens)
                 
                 aprendizado.atualizar_memoria(nome_real, respostas_usuario, dados_bayes)
-                aprendizado.salvar_dados_bayes(ARQ_BAYES, dados_bayes)
+                aprendizado.salvar_dados_bayes(ARQ_BAYES,dados_bayes)
 
     print("\n✨ Jogo finalizado! Até a próxima.")
 

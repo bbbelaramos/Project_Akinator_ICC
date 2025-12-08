@@ -17,12 +17,12 @@ pygame.display.set_caption("Akinator Python")
 
 # Cores
 BRANCO = (255, 255, 255)
-PRETO = (0, 0, 0)
+PRETO = (0, 0,0)
 AZUL = (0, 102, 204)
 VERDE = (0, 204, 102)
 VERMELHO = (204, 0, 0)
 CINZA_CLARO = (220, 220, 220)
-CINZA_ESCURO = (50, 50, 50)
+CINZA_ESCURO = (50,50, 50)
 
 # --- CONFIGURAÇÃO DE CAMINHOS ---
 DIRETORIO_ATUAL = os.path.dirname(__file__)
@@ -237,7 +237,7 @@ class AkinatorGame:
         TELA.blit(surf, rect)
     
     def desenhar_texto_multilinha(self, texto, y_inicial, fonte, cor=PRETO):
-        """Quebra o texto em várias linhas se passar da largura da tela."""
+        #Quebra o texto em várias linhas se passar da largura da tela.
         palavras = texto.split(' ')
         linhas = []
         linha_atual = ""
@@ -377,29 +377,28 @@ class AkinatorGame:
                      self.chute_nome = None
                      
             elif self.estado == ESTADO_LOSE_INPUT:
-                # 1. Título
+                # Título
                 self.desenhar_texto_centralizado("Puts, errei!", 50, FONTE_SAXMONO)
                 
-                # 2. Imagem
+                # Imagem
                 if self.imagem_derrota:
                     TELA.blit(self.imagem_derrota, self.rect_derrota)
                 
-                # 3. Pergunta
+                # Pergunta
                 self.desenhar_texto_centralizado("Quem era o personagem?", 500, FONTE_MEDIA)
                 
-                # 4. Caixa
+                # Caixa
                 pygame.draw.rect(TELA, BRANCO, (200, 350, 400, 50))
                 pygame.draw.rect(TELA, AZUL, (200, 350, 400, 50), 2)
                 
                 # Texto
                 texto_surf = FONTE_MEDIA.render(self.texto_entrada, True, PRETO)
                 TELA.blit(texto_surf, (210, 360))
-                
-                # Instrução
+            
                 self.desenhar_texto_centralizado("Digite o nome e aperte ENTER", 420, FONTE_SAXMONO, CINZA_ESCURO)
 
             elif self.estado == ESTADO_NOVA_PERGUNTA:
-                # NOVO (Quebra linha automaticamente):
+                
                 texto_pergunta = f"Qual pergunta diferencia {self.temp_nome_novo} de {self.chute_nome}?"
                 self.desenhar_texto_multilinha(texto_pergunta, 50, FONTE_SAXMONO)
                 pygame.draw.rect(TELA, BRANCO, (50, 250, 700, 50))
